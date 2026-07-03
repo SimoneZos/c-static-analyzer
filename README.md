@@ -14,8 +14,8 @@ Developed as an academic project for an Operating Systems course.
 ## How to Build and Run
 
 Compile the project using gcc:
+```bash
 gcc -Wall -Wextra -o precompiler main.c analyzer.c
 
 Run the tool:
 ./precompiler -i <input_file.c> [-o <output_file.txt>] [-v]
-
